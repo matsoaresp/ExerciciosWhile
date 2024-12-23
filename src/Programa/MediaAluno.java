@@ -16,10 +16,8 @@ public class MediaAluno {
         aluno.nota2 = sc.nextDouble();
         aluno.nota3 = sc.nextDouble();
 
-        if (aluno.Notas() < 60){
-            aluno.PontosFaltando();
-        }
         System.out.println(aluno);
+
 
     }
 }
